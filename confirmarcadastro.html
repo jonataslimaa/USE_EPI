@@ -10,12 +10,12 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
 
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <title>USE EPI :: Área do Cliente :: Endereço</title>
+    <title> USE EPI :: Página Principal</title>
+    
 </head>
 
 <body>
@@ -34,16 +34,16 @@
                             <a class="nav-link text-white" href="index.html">Principal</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="contato.html">Consultoria</a>
+                            <a class="nav-link text-white" href="contato.html">Contato</a>
                         </li>
                     </ul>
                     <div class="align-self-end">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a href="cliente_pedidos.html" class="nav-link text-white">Logado como <b>Jônatas Oliveira</b></a>
+                                <a href="cadastro.html" class="nav-link text-white">Quero Me Cadastrar</a>
                             </li>
                             <li class="nav-item">
-                                <a href="login.html" class="nav-link text-white">Sair</a>
+                                <a href="login.html" class="nav-link text-white">Entrar</a>
                             </li>
                             <li class="nav-item">
                                 <span class="badge rounded-pill bg-light text-danger position-absolute ms-4 mt-0"
@@ -60,58 +60,24 @@
  
         <main class="flex-fill">
             <div class="container">
-                <h1>Minha Conta</h1>
-                <div class="row gx-3">
-                    <div class="col-4">
-                        <div class="list-group">
-                            <a href="cliente_dados.html" class="list-group-item list-group-item-action">
-                                <i class="bi-person fs-6"></i> Dados Pessoais
-                            </a>
-                            <a href="cliente_contatos.html" class="list-group-item list-group-item-action">
-                                <i class="bi-mailbox fs-6"></i> Contatos
-                            </a>
-                            <a href="cliente_endereco.html" class="list-group-item list-group-item-action bg-danger text-light">
-                                <i class="bi-house-door fs-6"></i> Endereço
-                            </a>
-                            <a href="cliente_pedidos.html" class="list-group-item list-group-item-action">
-                                <i class="bi-truck fs-6"></i> Pedidos
-                            </a>
-                            <a href="cliente_favoritos.html" class="list-group-item list-group-item-action">
-                                <i class="bi-heart fs-6"></i> Favoritos
-                            </a>
-                            <a href="cliente_senha.html" class="list-group-item list-group-item-action">
-                                <i class="bi-lock fs-6"></i> Alterar Senha
-                            </a>
-                            <a href="index.html" class="list-group-item list-group-item-action">
-                                <i class="bi-door-open fs-6"></i> Sair
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-8">
-                        <form action="">
-                            <div class="form-floating mb-3 col-md-6 col-lg-4">
-                                <input class="form-control" type="text" id="txtCEP" placeholder=" " autofocus />
-                                <label for="txtCEP">CEP</label>
-                            </div>
-                            <div class="mb-3 col-md-6 col-lg-8">
-                                <textarea class="form-control text-muted bg-light text" style="height: 58px; font-size: 14px;" 
-                                    disabled>Digite o CEP para buscarmos o endereço.</textarea>
-                            </div> 
-                            <div class="form-floating mb-3 col-md-4">
-                                <input class="form-control" type="text" id="txtNumero" placeholder=" " autofocus />
-                                <label for="txtNumero">Número</label>
-                            </div>
-                            <div class="form-floating mb-3 col-md-8">
-                                <input class="form-control" type="text" id="txtComplemento" placeholder=" " autofocus />
-                                <label for="txtComplemento">Complemento</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input class="form-control" type="text" id="txtReferencia" placeholder=" " autofocus />
-                                <label for="txtReferencia">Ponto de Referência</label>
-                            </div>                           
-                        </form>
-                    </div>
-                </div>
+                <h1>Cadastrado realizado com sucesso!</h1>
+                <hr>
+                <p>
+                    Caro cliente,
+                </p>
+                <p>
+                 Cadastro realizado com sucesso. Para entrar, <a href="login.html">clique aqui</a>.
+                </p>
+                <p>
+                    Agradecemos pela confiança em nossos serviços.
+                </p>
+                <p>
+                    Cordialmente,<br>
+                    Central de Relacionamento USE EPI
+                </p>
+                <p>
+                    <a href="index.html" class="btn btn-lg btn-danger">Voltar à Página Principal</a>
+                </p>
             </div>
         </main>
 
@@ -152,7 +118,7 @@
             </div>
         </footer>
     </div>
-    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 </body>
