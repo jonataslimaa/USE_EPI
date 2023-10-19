@@ -6,6 +6,8 @@ body {
     min-height: 100vh;
 }
 
+
+
 p.truncar-3l {
     display: -webkit-box;
     -webkit-line-clamp: 3;
